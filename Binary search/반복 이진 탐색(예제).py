@@ -7,7 +7,7 @@ def binary_search(array, target, start, end):
         # 찾으려는 값보다 중간점 인덱스에 해당하는 값이 크다면 end 점을 이동
         elif array[mid] > target:
             end = mid - 1
-        # 찾으려는 값돠 중간점 인덱스에 해당하는 값이 작다면 start 점을 이동
+        # 찾으려는 값보다 중간점 인덱스에 해당하는 값이 작다면 start 점을 이동
         else:
             start = mid + 1
     return None
